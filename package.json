@@ -1,6 +1,14 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "dev": "lerna run dev",
+    "publish": "lerna publish",
+    "setup": "npm install && npx lerna bootstrap && npx lerna run build && cd packages/examples && npm run demo:assets:rebuild"
+  },
   "workspaces": [
     "packages/*"
   ],
