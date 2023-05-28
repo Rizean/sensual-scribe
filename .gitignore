@@ -1,2 +1,9 @@
 node_modules/
 .idea
+/packages/examples/public/assets/
+/package-lock.json
+/yarn.lock
+
+dist
+.cache
+.env
