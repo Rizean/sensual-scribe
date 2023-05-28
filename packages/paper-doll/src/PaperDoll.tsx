@@ -2,7 +2,7 @@ import React from "react";
 import CSS from 'csstype';
 import {PaperDollPart, PaperDollPartProps} from './PaperDollPart';
 
-interface PaperDollProps {
+export interface PaperDollProps {
     showLayers?: number,
     parts: PaperDollPartProps[]
     imageSubstitutions: {
