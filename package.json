@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "sensual-scribe",
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",

@@ -8,3 +8,4 @@ dist
 *.log
 package-lock.json
 yarn.lock
+/packages/paper-doll/coverage/
